@@ -6,6 +6,12 @@ namespace ManyStrings
     {
         static void Main(string[] args)
         {
+            //Ex6
+            double xx = 1.23456;
+            int ii = 19;
+            Console.WriteLine(" " + $"{xx:F2} " + "  " + $"{xx:P1}" 
+                + "  " + $"{ii:X}" + "  " + $"{ii:C}");
+        
             //Ex4
             string A = "\u261A";
             string B = "Good\\Night \u263E";
