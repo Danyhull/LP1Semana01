@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Text;
 
 namespace VariousType
 {
@@ -6,13 +8,19 @@ namespace VariousType
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Variaveis Inteiros
+            sbyte var1 = 8;
+            byte var2 = 55;
+            short var3 = 2768;
+            ushort var4 = 5535;
+            int var5 = 2;
+            Console.WriteLine(var1 + " " + var2 + " " + var3 + " " + var4 +" "+ var5);
 
-            sbyte var1 = -128;
-            byte var2 = 255;
-            short var3 = -32768;
-            ushort var4 = 65535;
-            int var5 = 2
+            //Variaveis Char
+            char estrela = '\u2606';
+            char netuno = '\u2646';
+            Console.WriteLine(estrela + " " + netuno);
+
         }
     }
 }
