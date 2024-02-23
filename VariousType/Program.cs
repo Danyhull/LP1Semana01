@@ -21,6 +21,12 @@ namespace VariousType
             char netuno = '\u2646';
             Console.WriteLine(estrela + " " + netuno);
 
+            //Variaveis Reais 
+            float f1 = 3.1415f;
+            decimal f2 = 2.15m;
+            Console.WriteLine(f1 + " " + f2);
+
+
         }
     }
 }
