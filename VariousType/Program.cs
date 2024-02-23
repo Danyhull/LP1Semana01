@@ -26,6 +26,11 @@ namespace VariousType
             decimal f2 = 2.15m;
             Console.WriteLine(f1 + " " + f2);
 
+            //Variaveis Boleanas
+            bool T = true;
+            bool F = false;
+            Console.WriteLine(T + " " + F);
+
 
         }
     }
